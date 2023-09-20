@@ -1,8 +1,8 @@
 // 体重
-const weight = 68;
+let weight = 68;
 
 // 身長
-const height = 1.7;
+let height = 1.7;
 
 // bmi
 let bmi;
