@@ -1,5 +1,4 @@
 const date = new Date();
 
-// console.log(date.getFullYear());
-// console.log(date.getMonth());
-console.log(date.toLocaleDateString());
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+console.log(date.toLocaleDateString('ja-JP', options));
